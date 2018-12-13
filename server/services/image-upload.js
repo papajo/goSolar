@@ -24,7 +24,7 @@ const upload = multer({
   storage: multerS3({
     acl: 'public-read',
     s3,
-    bucket: 'bwm-ng-dev',
+    bucket: 'test-bucket201',
     metadata: function (req, file, cb) {
       cb(null, {fieldName: 'TESTING_METADATA'});
     },

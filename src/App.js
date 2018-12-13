@@ -12,15 +12,11 @@ import RentalUpdate from 'components/rental/rental-detail/RentalUpdate';
 import { RentalCreate } from 'components/rental/rental-create/RentalCreate';
 import Login from 'components/login/Login';
 import { Register } from 'components/register/Register';
-
 import { RentalManage } from 'components/rental/rental-manage/RentalManage';
 import BookingManage from 'components/booking/booking-manage/BookingManage';
-
 import { ProtectedRoute } from 'components/shared/auth/ProtectedRoute';
 import { LoggedInRoute } from 'components/shared/auth/LoggedInRoute';
-
 import * as actions from 'actions';
-
 import 'App.css';
 
 const store = require('./reducers').init();
